@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Etienne Monier"
-  text: "Etienne Monier : Ingénieur DEVOPs @ CSGroup, Toulouse"
+  text: "Ingénieur DEVOPs @ CSGroup, Toulouse"
   tagline: My great project tagline
   actions:
     - theme: brand
