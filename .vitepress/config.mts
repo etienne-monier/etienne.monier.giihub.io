@@ -8,18 +8,31 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Accueil', link: '/' },
+      { text: 'Qui-suis-je', link: '/about' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Qui suis-je',
+        link: '/about'
+      },
+      {
+        text: 'DEVOPS',
+        items: []
+      },
+      {
+        text: "Docteur en traitement de l'image",
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Recherche', link: '/research/research' },
+          // { text: 'Publications', link: '/research/publication' },
+          { text: 'Enseignement', link: '/research/teaching' }
         ]
-      }
+      },
+      {
+        text: "Menuisier amateur",
+        items: []
+      },
     ],
 
     socialLinks: [
