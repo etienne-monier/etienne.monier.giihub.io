@@ -26,26 +26,26 @@ Depuis 2019, j'interviens également en tant qu'ATER dans les formations suivant
 
 ### Intégration de Fourier
 
-Les corrections des 5 TD sont disponibles [sur ce lien](assets/pdf/Enseignement/Integration_Fourier/TD_Integration_Fourier.pdf "Téléchargez le magnifique TD").
+Les corrections des 5 TD sont disponibles [sur ce lien](/pdf/Enseignement/Integration_Fourier/TD_Integration_Fourier.pdf "Téléchargez le magnifique TD").
 
 ### Intégration de variables complexes
 
-- TD1 : Découverte des théorèmes - [Télécharger](assets/pdf/Enseignement/Variables_Complexes/TD1.pdf "Téléchargez le magnifique TD")
-- TD2 : Transformée de Laplace - [Télécharger](assets/pdf/Enseignement/Variables_Complexes/TD2.pdf "Téléchargez le magnifique TD")
-- TD3 : Transformée en Z - [Télécharger](assets/pdf/Enseignement/Variables_Complexes/TD3.pdf "Téléchargez le magnifique TD")
+- TD1 : Découverte des théorèmes - [Télécharger](/pdf/Enseignement/Variables_Complexes/TD1.pdf "Téléchargez le magnifique TD")
+- TD2 : Transformée de Laplace - [Télécharger](/pdf/Enseignement/Variables_Complexes/TD2.pdf "Téléchargez le magnifique TD")
+- TD3 : Transformée en Z - [Télécharger](/pdf/Enseignement/Variables_Complexes/TD3.pdf "Téléchargez le magnifique TD")
 
 
 ### Traitement numérique du signal App2A
 
 *Sujets* :
-- TP 1 et 2 - [Télécharger](assets/pdf/Enseignement/App2A_SN/Sujet TP 1 et 2.pdf "Téléchargez le magnifique TP")
-<!-- - TP 3 - [Télécharger](assets/pdf/Enseignement/App2A_SN/Sujet TP 3.pdf "Téléchargez le magnifique TP") -->
+- TP 1 et 2 - [Télécharger](/pdf/Enseignement/App2A_SN/tp1-2.pdf "Téléchargez le magnifique TP")
+<!-- - TP 3 - [Télécharger](/pdf/Enseignement/App2A_SN/Sujet TP 3.pdf "Téléchargez le magnifique TP") -->
 
 *Codes* :
-- TP 1 - [Télécharger](assets/pdf/Enseignement/App2A_SN/1. Ech Quantif.zip "Téléchargez le code")
-- TP 2 - [Télécharger](assets/pdf/Enseignement/App2A_SN/Analyse_spectrale.zip "Téléchargez le code")
-- TP 3 - [Télécharger](assets/pdf/Enseignement/App2A_SN/filtnum.m "Téléchargez le code")
+- TP 1 - [Télécharger](/pdf/Enseignement/App2A_SN/Ech-Quantif.zip "Téléchargez le code")
+- TP 2 - [Télécharger](/pdf/Enseignement/App2A_SN/Analyse_spectrale.zip "Téléchargez le code")
+<!-- - TP 3 - [Télécharger](/pdf/Enseignement/App2A_SN/filtnum.m "Téléchargez le code") -->
 
 ### Traitement numérique du signal SN1
 
-*Matériel pour le projet* : [Télécharger](assets/pdf/Enseignement/SN1/Projet_donnees.zip "Téléchargez le code")
+*Matériel pour le projet* : [Télécharger](/pdf/Enseignement/SN1/Projet_donnees.zip "Téléchargez le code")

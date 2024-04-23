@@ -17,10 +17,10 @@ export default defineConfig({
         text: 'Qui suis-je',
         link: '/about'
       },
-      {
-        text: 'DEVOPS',
-        items: []
-      },
+      // {
+      //   text: 'DEVOPS',
+      //   items: []
+      // },
       {
         text: "Docteur en traitement de l'image",
         items: [
@@ -29,10 +29,10 @@ export default defineConfig({
           { text: 'Enseignement', link: '/research/teaching' }
         ]
       },
-      {
-        text: "Menuisier amateur",
-        items: []
-      },
+      // {
+      //   text: "Menuisier amateur",
+      //   items: []
+      // },
     ],
 
     socialLinks: [
