@@ -29,7 +29,7 @@ description: &description |
 hero:
   title: "Etienne Monier"
   subtitle: "Ingénieur DEVOPs @ CSGroup, Toulouse"
-  description: &description
+  description: *description
 
 # Items
 skills:
