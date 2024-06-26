@@ -1,17 +1,12 @@
-// https://vitepress.dev/guide/custom-theme
-import { h } from 'vue'
-import type { Theme } from 'vitepress'
-import DefaultTheme from 'vitepress/theme'
-import './style.css'
+import type { Theme } from "vitepress";
+import "./style.css";
+
+import Layout from "./components/Layout.vue";
+import createVuetify from "./pluggins/vuetify";
 
 export default {
-  extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
+  Layout,
   enhanceApp({ app, router, siteData }) {
-    // ...
-  }
-} satisfies Theme
+    app.use(createVuetify(siteData.value));
+  },
+} satisfies Theme;

@@ -1,48 +1,39 @@
-import { defineConfig } from 'vitepress'
+import { defineConfigWithTheme } from "vitepress";
+import type { ThemeConfig } from "./theme/types";
+import colors from "vuetify/util/colors";
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: "Etienne Monier",
-  description: "Ingénieur DEVOPs @ CSGroup, Toulouse",
+const siteTitle = "Etienne Monier";
+const siteDescription = "Ingénieur DEVOPs @ CSGroup, Toulouse";
+
+export default defineConfigWithTheme<ThemeConfig>({
+  title: siteTitle,
+  description: siteDescription,
   srcDir: "src",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Accueil', link: '/' },
-      { text: 'Qui-suis-je', link: '/about' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Qui suis-je',
-        link: '/about'
+    avatar: "/avatar.jpg",
+    email: "etienne.monier@protonmail.com",
+    theme: {
+      defaultTheme: "dark",
+      lightThemeColors: {
+        primary: colors.red.base,
       },
-      // {
-      //   text: 'DEVOPS',
-      //   items: []
-      // },
-      {
-        text: "Docteur en traitement de l'image",
-        items: [
-          { text: 'Recherche', link: '/research/research' },
-          // { text: 'Publications', link: '/research/publication' },
-          { text: 'Enseignement', link: '/research/teaching' }
-        ]
+      darkThemeColors: {
+        primary: colors.amber.base,
       },
-      // {
-      //   text: "Menuisier amateur",
-      //   items: []
-      // },
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    },
+    sidebar: [],
   },
   locales: {
     root: {
-      label: 'French',
-      lang: 'fr'
+      label: "French",
+      lang: "fr",
     },
-  }
-})
+    en: {
+      label: "English",
+      lang: "en",
+    },
+  },
+  vite: {
+    ssr: { noExternal: ["vuetify"] },
+  },
+});

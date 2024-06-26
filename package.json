@@ -1,7 +1,12 @@
 {
   "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "prettier": "^3.2.5",
+    "simple-icons": "^12.4.0",
+    "typescript": "^5.4.5",
     "vitepress": "^1.1.0",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vuetify": "^3.6.0"
   },
   "scripts": {
     "dev": "vitepress dev --port 8080",
